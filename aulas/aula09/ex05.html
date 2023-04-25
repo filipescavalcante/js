@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <style>
+      body {
+        background-color: rgb(64, 150, 254);
+        color: white;
+        font: normal 20px Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Aprendendo a usar o DOM</h1>
+    <p>Esse é o resultado</p>
+    <p>Estou estudando o DOM no curso de JavaScript</p>
+    <div class="msg">Clique em mim</div>
+
+    <script>
+      var p1 = document.getElementsByTagName("p")[0]
+      document.write("Usando getElementByTagName: " + p1.innerHTML)
+
+      var div = document.querySelector('div.msg')
+      div.style.background = 'red'
+      div.innerHTML = 'Olá!'
+    </script>
+  </body>
+</html>
