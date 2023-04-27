@@ -24,8 +24,7 @@ header {
 section {
     background-color: white;
     border-radius: 15px;
-    width: 700px;
-    height: 500px;
+    width: 600px;
     margin: auto;
     padding: 15px;
     color: black;
@@ -34,6 +33,11 @@ section {
 
 div {
     text-align: center;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
 }
 
 footer {
