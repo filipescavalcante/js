@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador De Idade</title>
+    <div class="campo">
+        <link rel="stylesheet" href="style.css">
+    </div>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <main>
+        <form action="cadastro.php">
+
+            <div class="campo">
+                <label for="nascimento">Ano de Nascimento:</label>
+                <input type="number" name="nascimento" id="nascimento">
+            </div>
+            
+            <div class="campo">
+                Sexo:
+                <input type="radio" name="sexo" id="masculino" value="M" checked>
+                <label for="masculino">Masculino</label>
+            
+                <input type="radio" name="sexo" id="feminino" value="F">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div class="campo">
+                <input class = "btn" type="button" value="Verificar" onclick="verificar()">
+            </div>
+        </form>
+
+        <p id="resultado">Preencha os dados para ver o resultado!</p>
+    </main>
+    <footer>
+        <p>&copy; Filipe Silva</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
