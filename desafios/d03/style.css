@@ -7,12 +7,14 @@
 }
 
 body {
-    background-color: rgb(255, 247, 136);
+    background-color: rgb(178, 136, 255);
 }
 
 header {
     text-align: center;
     margin: 20px 0;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
 }
 
 main {
@@ -37,4 +39,11 @@ main {
 footer {
     text-align: center;
     margin: 15px 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.578);
+}
+
+#res {
+    margin: 10px 0;
+    font-weight: bold;
 }
