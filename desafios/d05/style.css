@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: radial-gradient( rgb(0, 128, 255), rgb(22, 53, 232));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.381);
+}
+
+.campo {
+    margin: 10px 0;
+}
+
+input[type = "button"] {
+    cursor: pointer;
+}
+
