@@ -30,8 +30,3 @@ function finalizar() {
     O menor valor foi ${listaNumeros[0]} <br>
     `
 }
-
-
-
-
-
