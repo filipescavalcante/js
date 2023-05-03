@@ -18,12 +18,10 @@ function finalizar() {
     let c = 1
     let v = listaNumeros.length
 
-    /*
     while (c <= v) {
         soma = soma + listaNumeros[c] + listaNumeros[c-1]
         c++
     }
-    */
 
     analise.innerHTML = `${soma}`
 
