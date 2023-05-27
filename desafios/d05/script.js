@@ -1,7 +1,8 @@
-var num = document.getElementById('numeros')
-var res = document.getElementById('res') 
-var analise = document.getElementById('analise')
-listaNumeros = []
+var num = document.getElementById("numeros");
+var res = document.getElementById("res");
+var analise = document.getElementById("analise");
+
+var listaNumeros = [];
 
 function numValido (num) {
     if (num.length == 0 || num.value < 1 || num.value > 100) {
@@ -42,7 +43,7 @@ function finalizar() {
         let total = listaNumeros.length
         let maior = listaNumeros[0]
         let menor = listaNumeros[0]
-        let soma = 0 
+        let soma = 0
         let media = 0
 
         for (let pos in listaNumeros) {
@@ -54,9 +55,9 @@ function finalizar() {
             }
             soma += listaNumeros[pos]
         }
-        media = soma / total
+        media = soma / total7
 
-        analise.innerHTML = `<p>A quantidade de elementos adicionados foi ${total} <br> 
+        analise.innerHTML = `<p>A quantidade de elementos adicionados foi ${total} <br>
         O maior valor foi ${maior} <br>
         O menor valor foi ${menor} <br>
         A soma de todos os elementos foi de ${soma} <br>
